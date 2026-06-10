@@ -154,7 +154,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                                   vertical: 4,
                                 ),
                                 decoration: BoxDecoration(
-                                  color: Color(0xffFBFE1),
+                                  color: Color(0xFFFBFE1),
                                   borderRadius: BorderRadius.circular(12),
                                 ),
                                 child: Row(

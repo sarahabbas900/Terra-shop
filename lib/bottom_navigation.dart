@@ -12,7 +12,7 @@ class BottomNavigation extends StatefulWidget {
 class _BottomNavigationState extends State<BottomNavigation> {
   int _selectedIndex = 0;
   static const List<Widget> _pages = <Widget>[
-    HomePage(), // your existing HomePage
+    HomePage(),
     FavoritesPage(),
     ProfilePage(),
   ];
@@ -28,7 +28,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
-        selectedItemColor: const Color(0xFF4A7C59), // your green
+        selectedItemColor: const Color(0xFF4A7C59),
         unselectedItemColor: Colors.grey,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
