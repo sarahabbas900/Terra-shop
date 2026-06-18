@@ -287,3 +287,17 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+class Cart {
+  static final List<Map<String, dynamic>> items = [];
+
+  static void addItem(Map<String, dynamic> product) {
+    items.add(product);
+  }
+
+  static void removeItem(int index) {
+    items.removeAt(index);
+  }
+
+  static int get itemCount => items.length;
+}
